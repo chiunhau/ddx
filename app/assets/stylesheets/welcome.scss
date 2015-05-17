@@ -1,0 +1,43 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.landing {
+	height: 100vh;
+	background-color: $dark-grey;
+
+}
+
+.main-logo {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	h1 {
+		color: yellow;
+		font-size: 15em;
+		font-family: Oswald;
+	}
+	h5 {
+		color: #fff;
+		font-family: 'Josefin Sans', sans-serif;
+		span {
+			color: yellow;
+		}
+	}
+}
+
+.activity {
+	background-color: $light-grey;
+	padding-top: 50px;
+	.title {
+		width: 100%;
+		color: $dark-grey;
+		text-align: center;
+	}
+	.card {
+		background-color: #fff;
+		border-radius: 4px;
+		padding: 20px;
+		height: 100px;
+	}
+}
